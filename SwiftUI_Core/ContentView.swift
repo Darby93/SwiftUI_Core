@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  SwiftUICore
+//  SwiftUI_Core
 //
 //  Created by jihoon jang on 2023/05/18.
 //

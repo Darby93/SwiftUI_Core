@@ -1,6 +1,6 @@
 //
-//  SwiftUICoreApp.swift
-//  SwiftUICore
+//  SwiftUI_CoreApp.swift
+//  SwiftUI_Core
 //
 //  Created by jihoon jang on 2023/05/18.
 //
@@ -13,7 +13,7 @@
 import SwiftUI
 
 @main
-struct SwiftUICoreApp: App {
+struct SwiftUI_CoreApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

@@ -271,7 +271,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SwiftUICore/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI_Core/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = YXHXABBUG5;
 				ENABLE_PREVIEWS = YES;
@@ -305,7 +305,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SwiftUICore/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI_Core/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = YXHXABBUG5;
 				ENABLE_PREVIEWS = YES;
