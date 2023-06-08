@@ -14,6 +14,7 @@
 		663A7A562A1627CF0031E724 /* TextBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663A7A552A1627CF0031E724 /* TextBasic.swift */; };
 		663A7A582A1631F40031E724 /* ShapeBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663A7A572A1631F40031E724 /* ShapeBasic.swift */; };
 		66D75BE02A31D457006C68D5 /* ColorBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D75BDF2A31D457006C68D5 /* ColorBasic.swift */; };
+		66D75BE22A31DBDF006C68D5 /* GradientBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D75BE12A31DBDF006C68D5 /* GradientBasic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		663A7A552A1627CF0031E724 /* TextBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextBasic.swift; sourceTree = "<group>"; };
 		663A7A572A1631F40031E724 /* ShapeBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeBasic.swift; sourceTree = "<group>"; };
 		66D75BDF2A31D457006C68D5 /* ColorBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorBasic.swift; sourceTree = "<group>"; };
+		66D75BE12A31DBDF006C68D5 /* GradientBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientBasic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				663A7A552A1627CF0031E724 /* TextBasic.swift */,
 				663A7A572A1631F40031E724 /* ShapeBasic.swift */,
 				66D75BDF2A31D457006C68D5 /* ColorBasic.swift */,
+				66D75BE12A31DBDF006C68D5 /* GradientBasic.swift */,
 				663A7A492A16273F0031E724 /* Assets.xcassets */,
 				663A7A4B2A16273F0031E724 /* Preview Content */,
 			);
@@ -151,6 +154,7 @@
 				663A7A582A1631F40031E724 /* ShapeBasic.swift in Sources */,
 				66D75BE02A31D457006C68D5 /* ColorBasic.swift in Sources */,
 				663A7A462A16273E0031E724 /* SwiftUICoreApp.swift in Sources */,
+				66D75BE22A31DBDF006C68D5 /* GradientBasic.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
