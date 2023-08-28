@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		662509FD2A7CB5E800E6B26D /* StateBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662509FC2A7CB5E800E6B26D /* StateBasic.swift */; };
+		662509FF2A7CBAA700E6B26D /* ExtractViewBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662509FE2A7CBAA700E6B26D /* ExtractViewBasic.swift */; };
+		66250A012A7CBBB800E6B26D /* ExtractSubViewBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66250A002A7CBBB800E6B26D /* ExtractSubViewBasic.swift */; };
+		66250A042A7CBBCE00E6B26D /* ItemBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66250A032A7CBBCE00E6B26D /* ItemBasic.swift */; };
+		66250A062A7CC16600E6B26D /* BindingBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66250A052A7CC16600E6B26D /* BindingBasic.swift */; };
+		66250A082A7CC17500E6B26D /* BindingChild.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66250A072A7CC17500E6B26D /* BindingChild.swift */; };
+		66250A0A2A7CC33900E6B26D /* ConditionalBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66250A092A7CC33900E6B26D /* ConditionalBasic.swift */; };
 		663A44B82A77A64A00681E92 /* IconBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663A44B72A77A64A00681E92 /* IconBasic.swift */; };
 		663A44BA2A77A7E400681E92 /* ImageBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663A44B92A77A7E400681E92 /* ImageBasic.swift */; };
 		663A44BC2A77AB5A00681E92 /* FrameBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663A44BB2A77AB5A00681E92 /* FrameBasic.swift */; };
@@ -14,17 +21,39 @@
 		663A44C02A77B72B00681E92 /* StackBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663A44BF2A77B72B00681E92 /* StackBasic.swift */; };
 		663A44C22A77BC3B00681E92 /* PaddingBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663A44C12A77BC3B00681E92 /* PaddingBasic.swift */; };
 		663A44C42A77C12500681E92 /* SpacerBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663A44C32A77C12500681E92 /* SpacerBasic.swift */; };
+		663A44C62A78D53100681E92 /* ScrollViewBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663A44C52A78D53100681E92 /* ScrollViewBasic.swift */; };
+		663A44C82A78D7A500681E92 /* InitEnumBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663A44C72A78D7A500681E92 /* InitEnumBasic.swift */; };
+		663A44CA2A78DCB700681E92 /* ForEachLoopBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663A44C92A78DCB700681E92 /* ForEachLoopBasic.swift */; };
+		663A44CC2A78DF1400681E92 /* LazyGridBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663A44CB2A78DF1400681E92 /* LazyGridBasic.swift */; };
+		663A44CE2A78ED4000681E92 /* IgnoreSafeAreaBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663A44CD2A78ED4000681E92 /* IgnoreSafeAreaBasic.swift */; };
+		663A44D02A78EEAA00681E92 /* ButtonBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663A44CF2A78EEAA00681E92 /* ButtonBasic.swift */; };
 		663A7A462A16273E0031E724 /* SwiftUICoreApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663A7A452A16273E0031E724 /* SwiftUICoreApp.swift */; };
 		663A7A482A16273E0031E724 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663A7A472A16273E0031E724 /* ContentView.swift */; };
 		663A7A4A2A16273F0031E724 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 663A7A492A16273F0031E724 /* Assets.xcassets */; };
 		663A7A4D2A16273F0031E724 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 663A7A4C2A16273F0031E724 /* Preview Assets.xcassets */; };
 		663A7A562A1627CF0031E724 /* TextBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663A7A552A1627CF0031E724 /* TextBasic.swift */; };
 		663A7A582A1631F40031E724 /* ShapeBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663A7A572A1631F40031E724 /* ShapeBasic.swift */; };
+		66C25E982A98674F006ECA13 /* TernaryOperatorsBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C25E972A98674F006ECA13 /* TernaryOperatorsBasic.swift */; };
+		66C25E9A2A98690E006ECA13 /* AnimationBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C25E992A98690E006ECA13 /* AnimationBasic.swift */; };
+		66C25E9C2A986F6C006ECA13 /* TransitionBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C25E9B2A986F6C006ECA13 /* TransitionBasic.swift */; };
+		66C25E9E2A98723D006ECA13 /* SheetBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C25E9D2A98723D006ECA13 /* SheetBasic.swift */; };
+		66C25EA02A98724D006ECA13 /* SheetBasic2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C25E9F2A98724D006ECA13 /* SheetBasic2.swift */; };
+		66C25EA42A9874DB006ECA13 /* NavigationViewBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C25EA32A9874DB006ECA13 /* NavigationViewBasic.swift */; };
+		66C25EA62A9874ED006ECA13 /* SecondNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C25EA52A9874ED006ECA13 /* SecondNavigationView.swift */; };
+		66C25EA82A9878F1006ECA13 /* ListBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C25EA72A9878F1006ECA13 /* ListBasic.swift */; };
+		66C25EAA2A987CFA006ECA13 /* AlertBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C25EA92A987CFA006ECA13 /* AlertBasic.swift */; };
 		66D75BE02A31D457006C68D5 /* ColorBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D75BDF2A31D457006C68D5 /* ColorBasic.swift */; };
 		66D75BE22A31DBDF006C68D5 /* GradientBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D75BE12A31DBDF006C68D5 /* GradientBasic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		662509FC2A7CB5E800E6B26D /* StateBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateBasic.swift; sourceTree = "<group>"; };
+		662509FE2A7CBAA700E6B26D /* ExtractViewBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractViewBasic.swift; sourceTree = "<group>"; };
+		66250A002A7CBBB800E6B26D /* ExtractSubViewBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractSubViewBasic.swift; sourceTree = "<group>"; };
+		66250A032A7CBBCE00E6B26D /* ItemBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemBasic.swift; sourceTree = "<group>"; };
+		66250A052A7CC16600E6B26D /* BindingBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingBasic.swift; sourceTree = "<group>"; };
+		66250A072A7CC17500E6B26D /* BindingChild.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingChild.swift; sourceTree = "<group>"; };
+		66250A092A7CC33900E6B26D /* ConditionalBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionalBasic.swift; sourceTree = "<group>"; };
 		663A44B72A77A64A00681E92 /* IconBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconBasic.swift; sourceTree = "<group>"; };
 		663A44B92A77A7E400681E92 /* ImageBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageBasic.swift; sourceTree = "<group>"; };
 		663A44BB2A77AB5A00681E92 /* FrameBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameBasic.swift; sourceTree = "<group>"; };
@@ -32,6 +61,12 @@
 		663A44BF2A77B72B00681E92 /* StackBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackBasic.swift; sourceTree = "<group>"; };
 		663A44C12A77BC3B00681E92 /* PaddingBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingBasic.swift; sourceTree = "<group>"; };
 		663A44C32A77C12500681E92 /* SpacerBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacerBasic.swift; sourceTree = "<group>"; };
+		663A44C52A78D53100681E92 /* ScrollViewBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewBasic.swift; sourceTree = "<group>"; };
+		663A44C72A78D7A500681E92 /* InitEnumBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitEnumBasic.swift; sourceTree = "<group>"; };
+		663A44C92A78DCB700681E92 /* ForEachLoopBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachLoopBasic.swift; sourceTree = "<group>"; };
+		663A44CB2A78DF1400681E92 /* LazyGridBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyGridBasic.swift; sourceTree = "<group>"; };
+		663A44CD2A78ED4000681E92 /* IgnoreSafeAreaBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IgnoreSafeAreaBasic.swift; sourceTree = "<group>"; };
+		663A44CF2A78EEAA00681E92 /* ButtonBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonBasic.swift; sourceTree = "<group>"; };
 		663A7A422A16273E0031E724 /* SwiftUI_Core.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_Core.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		663A7A452A16273E0031E724 /* SwiftUICoreApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUICoreApp.swift; sourceTree = "<group>"; };
 		663A7A472A16273E0031E724 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -39,6 +74,15 @@
 		663A7A4C2A16273F0031E724 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		663A7A552A1627CF0031E724 /* TextBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextBasic.swift; sourceTree = "<group>"; };
 		663A7A572A1631F40031E724 /* ShapeBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeBasic.swift; sourceTree = "<group>"; };
+		66C25E972A98674F006ECA13 /* TernaryOperatorsBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TernaryOperatorsBasic.swift; sourceTree = "<group>"; };
+		66C25E992A98690E006ECA13 /* AnimationBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationBasic.swift; sourceTree = "<group>"; };
+		66C25E9B2A986F6C006ECA13 /* TransitionBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionBasic.swift; sourceTree = "<group>"; };
+		66C25E9D2A98723D006ECA13 /* SheetBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetBasic.swift; sourceTree = "<group>"; };
+		66C25E9F2A98724D006ECA13 /* SheetBasic2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetBasic2.swift; sourceTree = "<group>"; };
+		66C25EA32A9874DB006ECA13 /* NavigationViewBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewBasic.swift; sourceTree = "<group>"; };
+		66C25EA52A9874ED006ECA13 /* SecondNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondNavigationView.swift; sourceTree = "<group>"; };
+		66C25EA72A9878F1006ECA13 /* ListBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListBasic.swift; sourceTree = "<group>"; };
+		66C25EA92A987CFA006ECA13 /* AlertBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertBasic.swift; sourceTree = "<group>"; };
 		66D75BDF2A31D457006C68D5 /* ColorBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorBasic.swift; sourceTree = "<group>"; };
 		66D75BE12A31DBDF006C68D5 /* GradientBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientBasic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -54,6 +98,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		66250A022A7CBBBB00E6B26D /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				66250A032A7CBBCE00E6B26D /* ItemBasic.swift */,
+				66250A072A7CC17500E6B26D /* BindingChild.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
 		663A7A392A16273E0031E724 = {
 			isa = PBXGroup;
 			children = (
@@ -85,7 +138,28 @@
 				663A44BD2A77B25F00681E92 /* BackgroundBasic.swift */,
 				663A44BF2A77B72B00681E92 /* StackBasic.swift */,
 				663A44C12A77BC3B00681E92 /* PaddingBasic.swift */,
+				663A44C52A78D53100681E92 /* ScrollViewBasic.swift */,
+				663A44C72A78D7A500681E92 /* InitEnumBasic.swift */,
+				663A44C92A78DCB700681E92 /* ForEachLoopBasic.swift */,
+				663A44CB2A78DF1400681E92 /* LazyGridBasic.swift */,
+				663A44CD2A78ED4000681E92 /* IgnoreSafeAreaBasic.swift */,
+				663A44CF2A78EEAA00681E92 /* ButtonBasic.swift */,
 				663A44C32A77C12500681E92 /* SpacerBasic.swift */,
+				662509FC2A7CB5E800E6B26D /* StateBasic.swift */,
+				662509FE2A7CBAA700E6B26D /* ExtractViewBasic.swift */,
+				66250A052A7CC16600E6B26D /* BindingBasic.swift */,
+				66C25EA32A9874DB006ECA13 /* NavigationViewBasic.swift */,
+				66C25EA72A9878F1006ECA13 /* ListBasic.swift */,
+				66C25EA92A987CFA006ECA13 /* AlertBasic.swift */,
+				66C25EA52A9874ED006ECA13 /* SecondNavigationView.swift */,
+				66250A002A7CBBB800E6B26D /* ExtractSubViewBasic.swift */,
+				66250A092A7CC33900E6B26D /* ConditionalBasic.swift */,
+				66C25E972A98674F006ECA13 /* TernaryOperatorsBasic.swift */,
+				66C25E992A98690E006ECA13 /* AnimationBasic.swift */,
+				66C25E9B2A986F6C006ECA13 /* TransitionBasic.swift */,
+				66C25E9D2A98723D006ECA13 /* SheetBasic.swift */,
+				66C25E9F2A98724D006ECA13 /* SheetBasic2.swift */,
+				66250A022A7CBBBB00E6B26D /* Component */,
 				663A7A492A16273F0031E724 /* Assets.xcassets */,
 				663A7A4B2A16273F0031E724 /* Preview Content */,
 			);
@@ -170,18 +244,40 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				663A44CA2A78DCB700681E92 /* ForEachLoopBasic.swift in Sources */,
+				66C25EA42A9874DB006ECA13 /* NavigationViewBasic.swift in Sources */,
+				663A44C82A78D7A500681E92 /* InitEnumBasic.swift in Sources */,
+				66250A062A7CC16600E6B26D /* BindingBasic.swift in Sources */,
+				66250A012A7CBBB800E6B26D /* ExtractSubViewBasic.swift in Sources */,
+				66250A042A7CBBCE00E6B26D /* ItemBasic.swift in Sources */,
 				663A44BA2A77A7E400681E92 /* ImageBasic.swift in Sources */,
+				66C25E9E2A98723D006ECA13 /* SheetBasic.swift in Sources */,
+				66C25E9C2A986F6C006ECA13 /* TransitionBasic.swift in Sources */,
+				663A44CC2A78DF1400681E92 /* LazyGridBasic.swift in Sources */,
+				66250A082A7CC17500E6B26D /* BindingChild.swift in Sources */,
 				663A7A562A1627CF0031E724 /* TextBasic.swift in Sources */,
+				66C25EA82A9878F1006ECA13 /* ListBasic.swift in Sources */,
+				66C25EA62A9874ED006ECA13 /* SecondNavigationView.swift in Sources */,
 				663A44B82A77A64A00681E92 /* IconBasic.swift in Sources */,
+				663A44D02A78EEAA00681E92 /* ButtonBasic.swift in Sources */,
 				663A7A482A16273E0031E724 /* ContentView.swift in Sources */,
+				66C25EAA2A987CFA006ECA13 /* AlertBasic.swift in Sources */,
+				66250A0A2A7CC33900E6B26D /* ConditionalBasic.swift in Sources */,
 				663A44BE2A77B25F00681E92 /* BackgroundBasic.swift in Sources */,
+				66C25EA02A98724D006ECA13 /* SheetBasic2.swift in Sources */,
 				663A7A582A1631F40031E724 /* ShapeBasic.swift in Sources */,
 				66D75BE02A31D457006C68D5 /* ColorBasic.swift in Sources */,
+				663A44CE2A78ED4000681E92 /* IgnoreSafeAreaBasic.swift in Sources */,
+				66C25E9A2A98690E006ECA13 /* AnimationBasic.swift in Sources */,
 				663A7A462A16273E0031E724 /* SwiftUICoreApp.swift in Sources */,
 				66D75BE22A31DBDF006C68D5 /* GradientBasic.swift in Sources */,
+				662509FF2A7CBAA700E6B26D /* ExtractViewBasic.swift in Sources */,
 				663A44C42A77C12500681E92 /* SpacerBasic.swift in Sources */,
+				66C25E982A98674F006ECA13 /* TernaryOperatorsBasic.swift in Sources */,
+				663A44C62A78D53100681E92 /* ScrollViewBasic.swift in Sources */,
 				663A44BC2A77AB5A00681E92 /* FrameBasic.swift in Sources */,
 				663A44C22A77BC3B00681E92 /* PaddingBasic.swift in Sources */,
+				662509FD2A7CB5E800E6B26D /* StateBasic.swift in Sources */,
 				663A44C02A77B72B00681E92 /* StackBasic.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
